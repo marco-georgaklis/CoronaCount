@@ -1,0 +1,26 @@
+.country{
+    text-align: center;
+}
+.jumbotron{
+    padding-top: 8%;
+    text-align: center;
+    background-image: -webkit-linear-gradient(lightcoral, white);
+}
+
+.jumbotron h1{
+    padding-bottom: 5%;
+    font-size: 100px;
+}
+.green{
+    color: green;
+    text-shadow: 3px 0 darkgreen;
+}
+.red{
+    color: red;
+    text-shadow: 2px 0 darkred;
+}
+
+.grey{
+    color: red;
+    text-shadow: 2px 0 darkred;;
+}
