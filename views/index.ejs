@@ -1,11 +1,32 @@
 <%- include('header'); -%>
 <h1 class="date"></h1>
+
+<!--if the country queried isnt found-->
+<% if(popup){%>
+    <div class="alert alert-danger fixed-bottom" role="alert">
+        <h4 class="alert-heading">Country Not Found</h4>
+        <p>Sorry! The country you were looking for was not found. Please try again.</p>
+        <hr>
+        <p>Return to <a href="/Global">Global Statistics</a></p>
+    </div>
+<%}%>
+
+<!--statistics being displayed-->
 <div class="jumbotron">
     <h1 class="display-4"> <strong class="grey"><%= numcount %></strong> confirmed</h1>
     <h1 class="display-4"> <strong class="red"><%= deathcount %></strong> deaths</h1>
     <h1 class="display-4"> <strong class="green"><%= recovered %></strong> recovered</h1>
 </div>
 
+<!--an interactive map for that country to display the statistics-->
+<div class="map">
+
+</div>
+
+<!--death statistics comparing this country to the average-->
+<div class="more-stats">
+
+</div>
 
 
 
